@@ -15,7 +15,11 @@ Cuando el jugador (cubo) colisiona con el cilindro azul (objeto B), el objeto A 
 
 ```
 Explicación para entender el uso de GameController:
-Se utiliza la clase GameController que tiene un atributo estático de su misma clase. Dentro de esta clase tenemos funciones que activan eventos. En este caso, cuando el objeto A detecta la colisión, ejecuta la función de los objetos de la clase GameController "collisionWithA". Esta función activa el evento de collisionWithA a la que el objeto B está suscrito con la función addForce. De este modo, el objeto B ejecutará esa función, que hace que aumente su fuerza.
+Se utiliza la clase GameController que tiene un atributo estático de su misma clase. Dentro de esta clase 
+tenemos funciones que activan eventos. En este caso, cuando el objeto A detecta la colisión, ejecuta la 
+función de los objetos de la clase GameController "collisionWithA". Esta función activa el evento de 
+collisionWithA a la que el objeto B está suscrito con la función addForce. De este modo, el objeto B 
+ejecutará esa función, que hace que aumente su fuerza.
 ```
 
 ### Cuando el jugador se aproxima a los cilindros de tipo A, los cilindros de tipo B cambian su color y las esferas se orientan hacia un objetivo ubicado en la escena con ese propósito.
