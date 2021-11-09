@@ -14,6 +14,7 @@ public class RotateSphere : MonoBehaviour
 
     void rotateSphere(Transform objectivePosition)
     {
+        Debug.DrawRay(transform.position, transform.forward * 10, Color.red);
         transform.LookAt(objectivePosition);
     }
 }
