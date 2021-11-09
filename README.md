@@ -39,3 +39,5 @@ Con esta simple línea de código en la función rotateSphere, podemos generar u
 ```
 Debug.DrawRay(transform.position, transform.forward * 10, Color.red);
 ```
+
+![DrawRay](./DrawRay.PNG)
