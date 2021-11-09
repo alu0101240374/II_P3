@@ -31,3 +31,11 @@ Al acercarse el jugador al cilindro naranja, observamos como la esfera con "gafa
 ### Implementar un controlador que mueva el objeto con wasd
 
 El controlador ya se implementó en la práctica anterior y se utiliza junto al movimiento de la cámara con el ratón para rotar al jugador.
+
+### Depurar con Debug.DrawRay
+
+Con esta simple línea de código en la función rotateSphere, podemos generar una línea roja que representa la dirección a la que apunta la esfera:
+
+```
+Debug.DrawRay(transform.position, transform.forward * 10, Color.red);
+```
